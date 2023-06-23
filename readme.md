@@ -1,63 +1,44 @@
-# Zeniark ReactJS Coding Challenge
+# Getting Started with Create React App
 
-## Overview
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Your challenge is to create a simple, 10 question, true or false, trivia app in the technology you are familiar with. While the problem you are working on is simple, you should treat this like a real world application. This is a chance to show off your abilities and impress.
+## Clone the repository
+Clone the repo by typing this in your VSCode terminal or CLI
+`git clone https://github.com/ayronman99/zeniark-reactjs-coding-challenge.git`
 
-**What we are looking for through this challenge:**
+## Available Scripts
 
-- Functionality
-- Code Format
-- Project Structure
-- Scalability
-- Maintainability
-- Use of industry best practices
+In the project directory, you can run:
 
-## Goals
+### `npm start`
 
-Implement the screens based on the wireframes below using advanced techniques and industry best practices for your platform. Note that the wireframes may not be complete, so use your best judgment for UI/UX implementation. **Do not use a boilerplate like React Boilerplate for this challenge.** We want to see how you structure your project and what tooling you use from scratch. Create react app is fine to use. Using NextJS is a PLUS! 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Steps
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-#### 1. Fork this repo and use web-app folder as code boilerplate to start or you can create a fresh react-app.
-#### 2. Data: Feel free to do whatever you prefer in pulling data.
-Do either of the ff:
-- You can check file under `mock-data/questions.json` and do API data mocking. 
-- Or you can have the data under `mock-data/questions.json` and directly code/put it to state/local state.
-- Or you can setup nodejs server and do API request (PLUS Points!)
+### `npm test`
 
-#### 3. UI requirement:
-We provide the design for the trivia app. You can check the figma file [here](https://www.figma.com/file/6r4GIfxp3s9VXPq95KK9Gf/Zeniark-Coding-Test?node-id=0%3A1). You don't need to follow exactly the same if you do not have enough time. We want to see your general HTML/CSS skills and how you behavior when converting a design into a real product. `(Logo and background image are located in web-app/src/images)`
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Intro / Home Screen:
+### `npm run build`
 
-![The Intro screen for the app](screenshots/intro-screen.png "The Intro screen for the app")
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Static Text
-- LET'S START button navigates to the Quiz screen and starts the Quiz
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Quiz Screen:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-![The Quiz screen for the app](screenshots/question-screen.png "The Quiz screen for the app")
+### `npm run eject`
 
-- The headline is from question category
-- The card element contains the current question
-- The next question should appear after the current question is answered True or False
-- After all questions have been answered, navigate to the Results Screen
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### Results screen:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-![The Results screen for the app](screenshots/results-screen.png "The Results screen for the app")
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- The Score shows correct and total
-- Displays a list of the questions and whether the answer was correct or not
-- PLAY AGAIN starts over with new set of random questions and navigates to the Home Screen
-
-## Submission
-
-Please use git for version control and platforms like Github to host the repository. Once you have finished your challenge, send us the repository url. It would be even better if you can have a documentation for how to run your code in our environment.
-
-HAPPY CODING!
-
-
-~ Chrisl.Zeniark
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
