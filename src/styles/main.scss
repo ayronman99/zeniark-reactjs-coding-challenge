@@ -1,0 +1,102 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.border-red {
+  border: 2px solid red;
+}
+
+.App {
+  background-color: #eee;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-image: url("../images/bg.png");
+}
+
+.page {
+  width: 600px;
+  max-width: 100%;
+  margin: auto auto;
+  min-height: 50vh;
+  height: 50vh;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 20px;
+
+  &-title,
+  &-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-body {
+    font-size: 1rem;
+    font-weight: 700;
+
+    & .can-you {
+      padding: 10px 25px;
+      font-size: 2rem;
+      background-color: rgb(8, 86, 150);
+      border-radius: 10px;
+      color: #fff;
+    }
+  }
+
+  &-control {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .start {
+    border: none;
+    background: none;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2;
+    padding: 1rem;
+
+    a {
+      text-decoration: none;
+      color: rgb(8, 86, 150);
+      border-bottom: rgb(8, 86, 150);
+
+      &:hover{
+        transform: scale(1.2);
+      }
+      
+    }
+  }
+
+  .board-header,
+  .board-title,
+  .board-body,
+  .board-control {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .board-header {
+    min-height: calc(100% - 40vh);
+  }
+
+  .board-body {
+    min-height: calc(100% - 20vh);
+  }
+
+  .board-control {
+    min-height: calc(100% - 45vh);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}

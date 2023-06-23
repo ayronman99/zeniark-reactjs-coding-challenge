@@ -1,0 +1,1 @@
+export const QUIZ_URL = "https://raw.githubusercontent.com/chrisl-zeniark/zeniark-reactjs-coding-challenge/main/mock-data/questions.json"
