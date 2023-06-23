@@ -4,12 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Clone the repository
 Clone the repo by typing this in your VSCode terminal or CLI
-
 `git clone https://github.com/ayronman99/zeniark-reactjs-coding-challenge.git`
-
-## After cloning the repo
-
-type `npm i`
 
 ## Available Scripts
 
