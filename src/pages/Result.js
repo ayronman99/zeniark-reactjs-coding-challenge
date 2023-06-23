@@ -27,8 +27,6 @@ export default function Result() {
     const score = useQuizStore((state) => state.score);
     const questionCount = useQuizStore((state) => state.questionCount);
 
-    console.log(resultAnswers)
-
     return (
         <BoardBox theStyle={{ height: "550px" }}>
             <Box component="div" sx={{ position: "relative", padding: "10px", borderBottom: "2px solid #cece" }}>

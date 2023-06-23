@@ -42,7 +42,6 @@ export default function Quiz() {
 
 
     useEffect(() => {
-        console.log("score :", score, quizArr, answersArr, "<-- your answers");
     }, [response, questionIndex])
 
     const clickAnswerHandler = (e) => {
